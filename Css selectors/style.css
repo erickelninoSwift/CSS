@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap');
+body
+{
+    font-family: 'Geologica', sans-serif;
+    font-display:unset;
+}
+
+
+ul > li
+{
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#hello
+{
+    color: red;
+    list-style: none;
+}
+
+input[type="email"]
+{
+    border: 2px solid red;
+}
