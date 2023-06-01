@@ -26,9 +26,33 @@
         {
             color: purple;
         }
+
+        h2::first-letter
+        {
+            font-size: 40px;
+            color: gold;
+            font-style: italic;
+        }
+         h2::before
+         {
+            content: "This is";
+            color: green;
+         }
+
+         h2::after
+         {
+            content: " To use in this website";
+            color: red;
+            font-size: 20px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+         }
     </style>
 </head>
 <body>
+    <h2>Heading</h2>
+    <h1>
+        Jackpot
+    </h1>
     <h1>Box Model</h1>
 
     <ul>
