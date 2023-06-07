@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css Background</title>
+    <style>
+        div
+        {
+            width: 500px;
+            height: 500px;
+            border: 5px solid lightblue;
+            background-image: url('./img/image\ 1.jpeg');
+            
+            background-repeat: no-repeat;
+            margin: 100px auto;
+            background-position: -50px;
+            background-attachment:scroll;
+            background-size: auto;
+            background-origin: padding-box;
+            padding: 20px;
+            display: flex;
+        }
+        div > h1
+        {
+            color: lightgray;
+            background-color: green;
+            height: 40px;
+            width: 200px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: auto auto;
+            
+           
+
+        }
+    </style>
 </head>
 <body>
     <h1>CSS Background !</h1>
+    <div>
+        <h1>Hello world</h1>
+    </div>
 </body>
 </html>
