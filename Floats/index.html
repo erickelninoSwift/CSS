@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floats</title>
+    <style>
+        .container
+        {
+            width: 100%;
+            height: 300px;
+            background-color: lightblue;
+           
+        }
+        .left
+        {
+            height: 300px;
+            width: 40%;
+            overflow: auto;
+            float: left;
+            padding: 10px;
+        }
+
+        .right
+        {
+            height: 300px;
+            width: 40%;
+            overflow: auto;
+            float: right;
+            padding: 10px;
+           
+        }
+        .clearfix::after
+        {
+            content: "";
+            clear: both;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Float</h1>
+
+    <div class="container clearfix">
+        
+        <div class="left">
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit temporibus hic reprehenderit excepturi nostrum distinctio modi, quis consectetur cupiditate natus exercitationem. Facere est voluptatibus, tempora accusantium necessitatibus rerum. Laborum..  nemo facere vero tenetur ipsum amet! Amet eaque atque tempore iure ipsam. Totam odio dolore molestias. Quam.
+            Et, excepturi consectetur, nostrum error inventore nobis magni accusantium obcaecati incidunt, quia hic iusto assumenda voluptas minima laudantium. Inventore sunt placeat adipisci quidem corporis cumque est sequi at iure hic!</p>
+        </div>
+
+       
+        <div class="right">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus illo voluptas omnis nam incidunt assumenda similique dicta consequatur atque autem? Molestiae, iusto. Ea maiores quam iure animi non voluptatum sit! ipsum amet! Amet eaque atque tempore iure ipsam. Totam odio dolore molestias. Quam.
+            Et, excepturi consectetur, nostrum error inventore nobis magni accusantium obcaecati incidunt, quia hic iusto assumenda voluptas minima laudantium. Inventore sunt placeat adipisci quidem corporis cumque est sequi at iure hic!</p>
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+
+</body>
+</html>
